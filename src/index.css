@@ -11,3 +11,193 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+/* Facebook */
+
+.facebookPost {
+  width: 40%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+}
+
+.facebookImg {
+  height: 90px;
+  width: 90px;
+  margin-right: 10px;
+}
+
+.facebookBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.facebookHeading {
+  display: flex;
+}
+
+.facebookFooter {
+  display: flex;
+  align-items: center;
+}
+
+.facebookName {
+  color: #555fa9;
+  font-weight: 500;
+}
+
+.circle {
+  height: 3px;
+  width: 3px;
+  background: #94a3b2;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.facebookEducation,
+.facebookTime {
+  color: #a09da0;
+}
+
+.facebookBtn {
+  border: none;
+  background: none;
+  color: #555fa9;
+}
+
+/* Onliner */
+
+.onlinerCard {
+  padding: 15px;
+  width: 40%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.onlinerHeading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.onlinerArticle {
+  padding: 5px 15px;
+  background: #ffea00;
+  font-weight: 500;
+}
+
+.onlinerComments {
+  padding: 3px 15px;
+  font-weight: 600;
+  color: #ffea00;
+  background: #3e3939;
+  border: 1px solid #ffea00;
+  border-radius: 4px;
+}
+
+.onlinerTitle {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: #171615 1px 0 10px;
+}
+
+/* Rabota.by */
+
+.jobsCard {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 25px;
+  border: 1px solid #e6e6e6;
+}
+
+.jobsTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #379fff;
+}
+
+.jobsCompany,
+.jobsCity {
+  font-size: 12px;
+  color: #838383;
+}
+
+.jobsCity {
+  margin-bottom: 10px;
+}
+
+.jobsCompanyDescr {
+  margin-bottom: 20px;
+}
+
+.jobsFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobsBtn {
+  padding: 10px 15px;
+  border: none;
+  background: #1f88e5;
+  color: #fff;
+}
+
+.jobsDate {
+  color: #838383;
+}
+
+/* Yandex Music */
+
+.musicWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.musicCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.musicPoster {
+  margin-bottom: 10px;
+}
+
+.musicSong {
+  margin-bottom: 4px;
+}
+
+.musicArtist {
+  margin-bottom: 4px;
+  color: #8d77a3;
+  font-size: 13px;
+}
+
+.musicAlbum {
+  color: #8d77a3;
+  font-size: 13px;
+}
